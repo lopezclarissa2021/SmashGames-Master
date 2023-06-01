@@ -52,6 +52,45 @@ const data = {
               body: "Face off against towering demon bosses, each with their own unique strengths and weaknesses."
             }
           ],
+        },
+        {
+          type: "requirements",
+          platforms: ["steam", "playstation", "xbox", "facebook", "twitter", "instagram", "patreon", "twitch", "youtube"],
+          requirements: [
+            {
+              type: "minimum-requirements",
+              requirements: [
+                { title: "OS", value: "Win7" },
+                { title: "Processor", value: "Intel I3 or Ryzen 3" },
+                { title: "RAM", value: "8gb" },
+                { title: "Graphics", value: "Geforce GTX 570" },
+                { title: "Storage", value: "1gb HDD" }
+              ]
+            },
+            {
+              type: "recommended-requirements",
+              recommended: [
+                { title: "OS", value: "Win11" },
+                { title: "Processor", value: "Intel I9 or Ryzen 7" },
+                { title: "RAM", value: "16gb" },
+                { title: "Graphics", value: "Geforce RTX 2080" },
+                { title: "Storage", value: "5gb SSD" }
+              ]
+            }
+          ]
+        },
+        {
+          type: "wish-list"
+        },
+        {
+          type: "faq",
+          questions: [
+            { question: "first question", answer: "this is that answer you wanted FOISDFJ" },
+            { question: " this ia a question about something", answer: " this is the answer about something" },
+            { question: " this ia a question about something", answer: " this is the answer about something" },
+            { question: " this ia a question about something", answer: " this is the answer about something" },
+            { question: " this ia a question about something", answer: " this is the answer about something" }
+          ]
         }
       ]
     }
